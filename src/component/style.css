@@ -1,0 +1,127 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  font-size: 1.5em;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+a:hover {
+  text-decoration: none;
+  color: #545454;
+}
+
+.about a {
+  text-decoration: none;
+  color: #0055ff;
+}
+.about a:hover {
+  text-decoration: underline;
+}
+.imageBook {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.home h1,
+.infoHome {
+  text-align: center;
+}
+
+form {
+  text-align: center;
+  margin: 15px;
+}
+
+input {
+  padding: 5px;
+  border-radius: 15px;
+}
+
+button {
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.bookDetail {
+  margin: 40px;
+}
+
+.bigInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.descBigInfo {
+  margin: 25px;
+}
+
+.backHome h3 {
+  font-size: 3.5em;
+}
+.backHome a {
+  color: #000000;
+}
+
+.about {
+  margin: 40px;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 425px) {
+  p,
+  .paragraphP {
+    font-size: 18px;
+  }
+
+  .descBigInfo h2 {
+    font-size: 1.3em;
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 426px) and (max-width: 960px) {
+  p,
+  .paragraphP {
+    font-size: 18px;
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  p,
+  .paragraphP {
+    font-size: 22px;
+  }
+
+  input {
+    width: 400px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 15px;
+  }
+
+  button {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 15px;
+  }
+
+  .descBigInfo h3,
+  .descBigInfo h2 {
+    font-size: 1.8em;
+  }
+  .imageBook {
+    width: 40%;
+  }
+}
