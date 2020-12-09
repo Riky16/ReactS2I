@@ -52,13 +52,13 @@ function HomeSearch() {
         <button>🔎</button>
         {error && (
           <div style={{ color: `red` }}>
-            some error occurred, while fetching api
+            Some error occurred, while fetching api
           </div>
         )}
       </form>
       {loading && (
         <div style={{ color: `green` }}>
-          fetching books for "<strong>{searchTerm}</strong>"
+          Fetching books for "<strong>{searchTerm}</strong>"
         </div>
       )}
 
